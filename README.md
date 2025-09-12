@@ -141,6 +141,12 @@ sudo make install
 sudo reboot
 ```
 
+### Check New Kernel Version
+```
+hostnamectl
+```
+<img src="images/kernel.png" alt="Kernel">
+
 ##### This is the tester file
 ```
 #include <stdio.h>
@@ -174,7 +180,7 @@ gcc test.c -o test && ./test
 ```
 dmesg | grep ext4_fsync
 ```
-
+<img src="images/ext4.png" alt="ext4">
 
 ### Resources
 
