@@ -5,6 +5,7 @@
 2. Ubuntu 24 (VM)
 3. Linux 6.16 (Kernel)
 
+##### This guide assumes you have a running server such as [VirtualBox,](https://www.virtualbox.org/) [Parallels,](https://www.parallels.com/) CloudLab or others. I recommend using [CloudLab.](https://www.cloudlab.us/) Once your server is set up, follow the steps bellow to create a Virtual Machine(VM) and install the kernel.
 ---
 
 # PART I - Run VM (Ubuntu)
@@ -62,12 +63,12 @@ cd temp
 python3 -m http.server --directory .
 ```
 
-##### Resize the main disk to 20G
+##### Back to first terminal. Resize the main disk to 20G
 ```
 qemu-img resize noble-server-cloudimg-amd64.img +20G
 ```
 
-##### Run QEMU on the first terminal
+##### Run QEMU
 ```
 qemu-system-x86_64 \
     -net nic \
