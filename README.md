@@ -5,7 +5,7 @@
 2. Ubuntu 24 (VM)
 3. Linux 6.16 (Kernel)
 
-##### This guide assumes you have a running server such as [VirtualBox,](https://www.virtualbox.org/) [Parallels,](https://www.parallels.com/) CloudLab or others. I recommend using [CloudLab.](https://www.cloudlab.us/) Once your server is set up, follow the steps bellow to create a Virtual Machine(VM) and install the kernel.
+##### This guide assumes you have a running server such as [VirtualBox,](https://www.virtualbox.org/) [Parallels,](https://www.parallels.com/) CloudLab or another platform. I recommend using [CloudLab.](https://www.cloudlab.us/) Once your server is set up, follow the steps bellow to create a Virtual Machine(VM) and install the kernel.
 ---
 
 # PART I - Run VM (Ubuntu)
